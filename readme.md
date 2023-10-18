@@ -24,8 +24,11 @@ python manage.py runserver
 ## API будет доступно по адресам:  
 http://127.0.0.1:8000/api/openapi - OpenApi  
 http://127.0.0.1:8000/api/swagger-ui/ - Swagger 
+
 http://127.0.0.1:8000/api/categories/ - Список категорий блюд  
-http://127.0.0.1:8000/api/dishes/?category=Супы -  Пример запроса в категории 'Супы'  
+
+http://127.0.0.1:8000/api/dishes/?category=Супы -  Пример запроса в категории 'Супы' 
+
 http://127.0.0.1:8000/api/recipe/ - Список всех рецептов  
 http://127.0.0.1:8000/api/recipe/5/ - Рецепт блюда id  
 
